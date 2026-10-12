@@ -1,0 +1,25 @@
+# Compiled binaries and executables
+server
+client
+server.exe
+client.exe
+*.exe
+*.out
+*.o
+
+# Debugging symbols and dumps
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+vgcore.*
+
+# VS Code temporary cache (settings files tasks.json/launch.json safe rahengi)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
